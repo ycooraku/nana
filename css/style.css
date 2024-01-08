@@ -1231,29 +1231,40 @@ menu&price
 }
 #menu .inner ul li dl dt {
   width: 230px;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
 }
 @media screen and (max-width: 767px) {
   #menu .inner ul li dl dt {
     font-size: 0.7rem;
-    width: 180px;
+    width: 210px;
   }
 }
 #menu .inner ul li dl dd {
   width: 60px;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
 }
 @media screen and (max-width: 767px) {
   #menu .inner ul li dl dd {
     font-size: 0.6rem;
+    width: 50px;
   }
 }
 #menu .inner ul li:last-of-type dl dt {
   width: 75%;
   max-width: 270px;
 }
+@media screen and (max-width: 767px) {
+  #menu .inner ul li:last-of-type dl dt {
+    width: 58%;
+  }
+}
 #menu .inner ul li:last-of-type dl dd {
   width: 25%;
+}
+@media screen and (max-width: 767px) {
+  #menu .inner ul li:last-of-type dl dd {
+    width: 13%;
+  }
 }
 #menu .inner p {
   font-size: 0.75rem;
