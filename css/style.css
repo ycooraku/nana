@@ -1159,6 +1159,7 @@ menu&price
   #menu .inner {
     width: 92%;
     height: 780px;
+    text-align: left;
   }
 }
 #menu .inner h1 {
@@ -1166,7 +1167,7 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner h1 {
-    margin: 60px auto 40px auto;
+    margin: 60px auto 40px 30%;
   }
 }
 #menu .inner ul {
@@ -1184,7 +1185,6 @@ menu&price
 @media screen and (max-width: 767px) {
   #menu .inner ul {
     display: inline-block;
-    border: solid 1px #000;
     margin-left: 30px;
   }
 }
@@ -1194,7 +1194,7 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner ul li {
-    width: 85%;
+    width: 350px;
     margin-bottom: 50px;
   }
 }
@@ -1227,7 +1227,7 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner ul li dl {
-    width: 100%;
+    width: 350px;
     margin-top: 20px;
     border: solid 1px #000;
   }
