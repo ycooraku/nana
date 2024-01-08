@@ -1073,6 +1073,7 @@ menu&price
             }
             @include mobile {
                 display: inline-block;
+                border: solid 1px #000;
                 margin-left: 30px;
             }
             li {
@@ -1107,13 +1108,16 @@ menu&price
                     color: #606060;
                     margin-top: 30px;
                     @include mobile {
+                        width: 100%;
                         margin-top: 20px;
+                        border: solid 1px #000;
                     }
                     dt {
                         width: 230px;
                         font-size: 0.7rem;
                         @include mobile {
                             font-size: 0.65rem;
+                            border: solid 1px #000;
                         }
                     }
                     dd {
@@ -1121,6 +1125,7 @@ menu&price
                         font-size: 0.65rem;
                         @include mobile {
                             font-size: 0.6rem;
+                            border: solid 1px #000;
                         }
                     }
                 }
