@@ -1167,7 +1167,7 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner h1 {
-    margin: 60px auto 40px 30%;
+    margin: 60px auto 40px 25%;
   }
 }
 #menu .inner ul {
@@ -1228,7 +1228,7 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner ul li dl {
-    width: 450px;
+    width: 350px;
     margin-top: 20px;
     border: solid 1px #000;
   }
