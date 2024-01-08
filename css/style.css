@@ -1193,7 +1193,7 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner ul li {
-    width: 70%;
+    width: 85%;
     margin-bottom: 50px;
   }
 }
@@ -1254,6 +1254,7 @@ menu&price
 @media screen and (max-width: 767px) {
   #menu .inner ul li:last-of-type dl dt {
     width: 240px;
+    max-width: none;
   }
 }
 #menu .inner ul li:last-of-type dl dd {
