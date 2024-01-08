@@ -10,6 +10,7 @@ body {
   font-size: 0.875rem;
   font-family: "futura-pt", sans-serif, "source-han-sans-japanese", sans-serif, "Meiryo, Yu Gothic", "YuGothic", "Roboto", "Helvetica Neue", "Hiragino Kaku Gothic Pro", "Arial", sans-serif;
   line-height: 26px;
+  min-width: 0;
 }
 
 a {
@@ -1235,6 +1236,7 @@ menu&price
 @media screen and (max-width: 767px) {
   #menu .inner ul li dl dt {
     font-size: 0.7rem;
+    width: 180px;
   }
 }
 #menu .inner ul li dl dd {
