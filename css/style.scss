@@ -1080,8 +1080,9 @@ menu&price
                 text-align: left;
                 width: 50%;
                 @include mobile {
-                    width: 350px;
+                    width: 450px;
                     margin-bottom: 50px;
+                    border: solid 1px #000;
                 }
                 h2 {
                     font-size: 1rem;
