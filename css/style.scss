@@ -1111,17 +1111,18 @@ menu&price
                     }
                     dt {
                         width: 230px;
-                        font-size: 0.75rem;
+                        font-size: 0.7rem;
                         @include mobile {
                             font-size: 0.7rem;
-                            width: 180px;
+                            width: 210px;
                         }
                     }
                     dd {
                         width: 60px;
-                        font-size: 0.7rem;
+                        font-size: 0.65rem;
                         @include mobile {
                             font-size: 0.6rem;
+                            width: 50px;
                         }
                     }
                 }
@@ -1132,9 +1133,15 @@ menu&price
                     dt {
                         width: 75%;
                         max-width: 270px;
+                        @include mobile {
+                            width: 58%;
+                        }
                     }
                     dd {
                         width: 25%;
+                        @include mobile {
+                            width: 13%;
+                        }
                     }
                 }
             }
