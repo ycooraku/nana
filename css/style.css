@@ -1194,8 +1194,9 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner ul li {
-    width: 350px;
+    width: 450px;
     margin-bottom: 50px;
+    border: solid 1px #000;
   }
 }
 #menu .inner ul li h2 {
