@@ -1060,7 +1060,7 @@ menu&price
         h1 {
             margin: 100px auto 50px auto;
             @include mobile {
-                margin: 60px auto 40px 30%;
+                margin: 60px auto 40px 25%;
             }
         }
         ul {
@@ -1109,7 +1109,7 @@ menu&price
                     color: #606060;
                     margin-top: 30px;
                     @include mobile {
-                        width: 450px;
+                        width: 350px;
                         margin-top: 20px;
                         border: solid 1px #000;
                     }
