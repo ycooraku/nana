@@ -1235,8 +1235,7 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner ul li dl dt {
-    font-size: 0.7rem;
-    width: 210px;
+    font-size: 0.65rem;
   }
 }
 #menu .inner ul li dl dd {
@@ -1246,7 +1245,6 @@ menu&price
 @media screen and (max-width: 767px) {
   #menu .inner ul li dl dd {
     font-size: 0.6rem;
-    width: 50px;
   }
 }
 #menu .inner ul li:last-of-type dl dt {
@@ -1255,7 +1253,7 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner ul li:last-of-type dl dt {
-    width: 58%;
+    width: 240px;
   }
 }
 #menu .inner ul li:last-of-type dl dd {
@@ -1263,7 +1261,7 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner ul li:last-of-type dl dd {
-    width: 13%;
+    width: 60px;
   }
 }
 #menu .inner p {
