@@ -1079,7 +1079,7 @@ menu&price
                 text-align: left;
                 width: 50%;
                 @include mobile {
-                    width: 70%;
+                    width: 85%;
                     margin-bottom: 50px;
                 }
                 h2 {
@@ -1133,6 +1133,7 @@ menu&price
                         max-width: 270px;
                         @include mobile {
                             width: 240px;
+                            max-width: none;
                         }
                     }
                     dd {
