@@ -823,12 +823,7 @@ salon
 --------------------------------*/
 #salon {
   width: 100%;
-  height: 800px;
-}
-@media screen and (max-width: 767px) {
-  #salon {
-    height: 920px;
-  }
+  margin-bottom: 150px;
 }
 #salon .inner {
   display: flex;
@@ -998,17 +993,7 @@ instagram
 --------------------------------*/
 #instagram {
   width: 100%;
-  height: 470px;
-}
-@media screen and (max-width: 999px) {
-  #instagram {
-    height: 320px;
-  }
-}
-@media screen and (max-width: 767px) {
-  #instagram {
-    height: 530px;
-  }
+  margin-bottom: 150px;
 }
 #instagram .inner {
   display: flex;
@@ -1137,12 +1122,7 @@ instagram
 menu&price
 --------------------------------*/
 #menu {
-  height: 1050px;
-}
-@media screen and (max-width: 767px) {
-  #menu {
-    height: 1240px;
-  }
+  margin-bottom: 50px;
 }
 #menu .inner {
   width: 80%;
@@ -1159,7 +1139,7 @@ menu&price
 @media screen and (max-width: 767px) {
   #menu .inner {
     width: 92%;
-    height: 840px;
+    height: 800px;
     text-align: left;
   }
 }
@@ -1274,7 +1254,7 @@ menu&price
   font-size: 0.75rem;
   letter-spacing: 0.1rem;
   color: #757575;
-  margin: 70px auto 60px auto;
+  margin: 70px auto 30px auto;
 }
 @media screen and (max-width: 767px) {
   #menu .inner p {
@@ -1515,17 +1495,7 @@ menu&price
 staff
 --------------------------------*/
 #staff {
-  height: 700px;
-}
-@media screen and (max-width: 999px) {
-  #staff {
-    height: 950px;
-  }
-}
-@media screen and (max-width: 767px) {
-  #staff {
-    height: 1100px;
-  }
+  margin-bottom: 50px;
 }
 #staff .inner {
   width: 80%;
@@ -1863,17 +1833,7 @@ staff
 beauty&life
 --------------------------------*/
 #beauty {
-  height: 680px;
-}
-@media screen and (max-width: 999px) {
-  #beauty {
-    height: 1250px;
-  }
-}
-@media screen and (max-width: 767px) {
-  #beauty {
-    height: 1740px;
-  }
+  margin-bottom: 100px;
 }
 #beauty .inner {
   width: 80%;
