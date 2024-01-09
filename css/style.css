@@ -858,6 +858,7 @@ salon
 }
 @media screen and (max-width: 767px) {
   #salon .inner .section-title {
+    width: 100%;
     margin-bottom: 50px;
   }
 }
@@ -1140,7 +1141,7 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu {
-    height: 1200px;
+    height: 1240px;
   }
 }
 #menu .inner {
@@ -1158,7 +1159,7 @@ menu&price
 @media screen and (max-width: 767px) {
   #menu .inner {
     width: 92%;
-    height: 780px;
+    height: 840px;
     text-align: left;
   }
 }
@@ -1167,7 +1168,7 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner h1 {
-    margin: 60px auto 40px 25%;
+    margin: 60px auto 40px 20%;
   }
 }
 #menu .inner ul {
@@ -1194,9 +1195,8 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner ul li {
-    width: 320px;
+    width: 310px;
     margin-bottom: 50px;
-    border: solid 1px #000;
   }
 }
 #menu .inner ul li h2 {
@@ -1228,9 +1228,8 @@ menu&price
 }
 @media screen and (max-width: 767px) {
   #menu .inner ul li dl {
-    width: 320px;
+    width: 310px;
     margin-top: 20px;
-    border: solid 1px #000;
   }
 }
 #menu .inner ul li dl dt {
@@ -1241,7 +1240,6 @@ menu&price
   #menu .inner ul li dl dt {
     font-size: 0.65rem;
     width: 200px;
-    border: solid 1px #000;
   }
 }
 #menu .inner ul li dl dd {
@@ -1252,7 +1250,6 @@ menu&price
   #menu .inner ul li dl dd {
     font-size: 0.6rem;
     width: 50px;
-    border: solid 1px #000;
   }
 }
 #menu .inner ul li:last-of-type dl dt {
@@ -1527,7 +1524,7 @@ staff
 }
 @media screen and (max-width: 767px) {
   #staff {
-    height: 1180px;
+    height: 1100px;
   }
 }
 #staff .inner {
@@ -1875,7 +1872,7 @@ beauty&life
 }
 @media screen and (max-width: 767px) {
   #beauty {
-    height: 1700px;
+    height: 1740px;
   }
 }
 #beauty .inner {
