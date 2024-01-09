@@ -780,6 +780,7 @@ salon
                 margin-bottom: 70px;
             }
             @include mobile {
+                width: 100%;
                 margin-bottom: 50px;
             }
         }
@@ -1041,7 +1042,7 @@ menu&price
 #menu {
     height: 1050px;
     @include mobile {
-        height: 1200px;
+        height: 1240px;
     }
     .inner {
         width: 80%;
@@ -1054,13 +1055,13 @@ menu&price
         }
         @include mobile {
             width: 92%;
-            height: 780px;
+            height: 840px;
             text-align: left;
         }
         h1 {
             margin: 100px auto 50px auto;
             @include mobile {
-                margin: 60px auto 40px 25%;
+                margin: 60px auto 40px 20%;
             }
         }
         ul {
@@ -1080,9 +1081,8 @@ menu&price
                 text-align: left;
                 width: 50%;
                 @include mobile {
-                    width: 320px;
+                    width: 310px;
                     margin-bottom: 50px;
-                    border: solid 1px #000;
                 }
                 h2 {
                     font-size: 1rem;
@@ -1109,9 +1109,8 @@ menu&price
                     color: #606060;
                     margin-top: 30px;
                     @include mobile {
-                        width: 320px;
+                        width: 310px;
                         margin-top: 20px;
-                        border: solid 1px #000;
                     }
                     dt {
                         width: 230px;
@@ -1119,7 +1118,6 @@ menu&price
                         @include mobile {
                             font-size: 0.65rem;
                             width: 200px;
-                            border: solid 1px #000;
                         }
                     }
                     dd {
@@ -1128,7 +1126,6 @@ menu&price
                         @include mobile {
                             font-size: 0.6rem;
                             width: 50px;
-                            border: solid 1px #000;
                         }
                     }
                 }
@@ -1408,7 +1405,7 @@ staff
         height: 950px;
     }
     @include mobile {
-        height: 1180px;
+        height: 1100px;
     }
     .inner {
         width: 80%;
@@ -1683,7 +1680,7 @@ beauty&life
         height: 1250px;
     }
     @include mobile {
-        height: 1700px;
+        height: 1740px;
     }
     .inner {
         width: 80%;
